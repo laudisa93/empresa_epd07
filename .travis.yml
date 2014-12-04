@@ -13,11 +13,11 @@ script:
     - radon cc src/.
     - radon mi src/.
     - radon raw src/.
-    - radon cc test/.
-    - radon mi test/.
-    - radon raw test/.
+    - radon cc tests/.
+    - radon mi tests/.
+    - radon raw tests/.
     - pep8 src/.
-    - pep8 test/.
+    - pep8 tests/.
 after_success:
     - coveralls
 notifications:
