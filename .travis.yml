@@ -23,5 +23,5 @@ after_success:
 notifications:
     email:
         recipients:
-            - laudisa93@gmail.com
+            - laurixi1993@hotmail.com
         on_failure: always
