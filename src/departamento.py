@@ -52,7 +52,7 @@ class Departamento():
     def get_nombre_dpto(self):
         """Metodo get nombre del departamento
 
-        Este metodo toma el nombre del departamento
+        Este metodo toma el nombre del departamento de la empresa
 
         :return: nombre del departamento
         :rtype: str
