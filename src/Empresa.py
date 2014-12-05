@@ -13,7 +13,8 @@ class Empresa:
         :type nombre_empresa: str
         :param cif: codigo de identificacion fiscal de la empresa
         :type cif: str
-        :param razon_social: denominacion por la que se conoce colectivamente a una empresa
+        :param razon_social: denominacion por la que se conoce colectivamente
+        a una empresa
         :type razon_social: str
         :param departamentos: lista de departamentos vacia de la empresa
         :type departamentos: list

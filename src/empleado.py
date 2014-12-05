@@ -4,7 +4,8 @@ __author__ = 'Laura'
 class Empleado():
     """Esta clase representa el empleado de un departamento"""
 
-    def __init__(self, nombre, apellidos, dni, direccion, edad, email, salario):
+    def __init__(self, nombre, apellidos, dni, direccion, edad,
+                 email, salario):
         """Metodo constructor de empleado
 
         En este metodo se define un objeto de tipo Empleado con sus atributos
@@ -48,7 +49,8 @@ class Empleado():
     def get_nombre_apellidos(self):
         """Metodo get del nombre y apellidos
 
-        Este metodo toma el nombre completo del empleado que consta de su nombre y sus apellidos
+        Este metodo toma el nombre completo del empleado que consta de su
+        nombre y sus apellidos
 
         :return: nombre y apelldos del empleado
         :rtype: str
@@ -88,13 +90,10 @@ class Empleado():
     def get_salario_mensual(self):
         """Metodo get del salario mensual
 
-        Este metodo toma el valor del salario mensual del empleado a partir de su
-        salario anual dividiendolo entre 12
+        Este metodo toma el valor del salario mensual del empleado a partir
+        de su salario anual dividiendolo entre 12
 
         :return: salario mensual del empleado
         :rtype: float
         """
         return self.get_salario() / 12.0
-
-
-

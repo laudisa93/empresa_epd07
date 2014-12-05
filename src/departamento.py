@@ -7,7 +7,8 @@ class Departamento():
     def __init__(self, nombre_depto, id_depto):
         """Metodo constructor de departamento
 
-        En este metodo se define un objeto de tipo Departamento con sus atributos
+        En este metodo se define un objeto de tipo Departamento con sus
+        atributos
 
         :param nombre_depto: nombre del departamento
         :type nombre_depto: str
@@ -23,9 +24,11 @@ class Departamento():
     def aniadir_empleado(self, empleado):
         """Metodo aniadir empleado
 
-        Este metodo se usa para aniadir un nuevo empleado a la lista de empleados del departamento
+        Este metodo se usa para aniadir un nuevo empleado a la lista de
+        empleados del departamento
 
-        :param empleado: empleado que se va a aniadir a la lista de empleados del departamento
+        :param empleado: empleado que se va a aniadir a la lista de empleados
+        del departamento
         :type empleado: empleado
         """
         self.empleados.append(empleado)
@@ -33,9 +36,11 @@ class Departamento():
     def get_salario_total(self):
         """Metodo get del salario total
 
-        Este metodo toma la suma del salario total de todos los empleados del departamento
+        Este metodo toma la suma del salario total de todos los empleados del
+        departamento
 
-        :param total: variable que guarda la suma de todos los salarios de los empleados del departamento
+        :param total: variable que guarda la suma de todos los salarios de los
+        empleados del departamento
         :return: total
         :rtype: float
         """
@@ -57,7 +62,8 @@ class Departamento():
     def get_salario_total_mensual(self):
         """Metodo get salario mensual total
 
-        Este metodo calcula el salario total mensual de todos los empleados del departamento
+        Este metodo calcula el salario total mensual de todos los empleados
+        del departamento
 
         :return: salario mensual total de todos los empleados del departamento
         :rtype: float
